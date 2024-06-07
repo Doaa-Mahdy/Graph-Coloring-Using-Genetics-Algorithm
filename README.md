@@ -16,21 +16,25 @@ Graph coloring has numerous applications in fields such as timetabling problems,
 •	Backtracking Algorithm
 
 # Input and Output Format
-	Input Format:
+Input Format:
 1.	The program asks the user to enter the number of graph nodes.
 2.	The program asks the user to enter the number of the population size.
-3.	   The program asks the user to choose what type of input graph wants from
-     the following choices: 
-•	List (The program will ask the user to enter an adjacency     list for each node (separate neighbors by space))
-•	Matrix (The program will ask the user to enter an adjacency matrix)
-•	Dictionary (The program will ask the user to enter an adjacency dictionary (node: [list of neighbors]))
-•	Random Graph (Will generate random graph)
+3.	The program asks the user to choose what type of input graph wants from the following choices:
+	•	List (The program will ask the user to enter an adjacency     list for each node (separate neighbors by space))
+	•	Matrix (The program will ask the user to enter an adjacency matrix)
+	•	Dictionary (The program will ask the user to enter an adjacency dictionary (node: [list of neighbors]))
+	•	Random Graph (Will generate random graph)
+
+![alt text](https://github.com/Doaa-Mahdy/Graph-Coloring-Using-Genetics-Algorithm/blob/Images/in.png?raw=true)
+
 
 # Output Format:
 •	First determine the maximum number of connections to the nodes 
 •	It prints the graph using the maximum number as the number of node colors  
 •	Then decrease the colors one by one until a minimum number of colors is used
 •	The final outputs are the graph with the minimum color used , the greedy solution, backtracking proof, and how many colors are used.
+![alt text](https://github.com/Doaa-Mahdy/Graph-Coloring-Using-Genetics-Algorithm/blob/Images/out.png?raw=true)
+
 Details of the algorithm(s)/approach(es) used and the results of the experiments.
 # 	Genetic Algorithm
 1.	Generate an initial population of chromosomes, where each chromosome represents a possible color of the graph.
